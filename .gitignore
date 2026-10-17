@@ -1,0 +1,12 @@
+.DS_Store
+.env
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# Third-party source material (AWS PDFs, ISO standards) stays local: copyright/licensing.
+# Track only the index and the .webloc link files.
+resources/*
+!resources/README.md
+!resources/*.webloc
