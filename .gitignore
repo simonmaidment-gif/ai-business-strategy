@@ -6,7 +6,9 @@ __pycache__/
 *.pyc
 
 # Third-party source material (AWS PDFs, ISO standards) stays local: copyright/licensing.
-# Track only the index and the .webloc link files.
+# Track only the index (resources/README.md).
 resources/*
 !resources/README.md
-!resources/*.webloc
+
+# Private planning docs (career details): never committed.
+private/
